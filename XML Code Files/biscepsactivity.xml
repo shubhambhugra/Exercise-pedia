@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/BiscepLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/BiscepHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#B4EF78"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="@string/biscepsheading"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/exBiscep1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exBiscep1"
+            android:textSize="22sp" />
+
+
+        <ImageView
+            android:id="@+id/biscepRod"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/exBiscep1IMG"
+            app:srcCompat="@drawable/bisceprod" />
+
+        <TextView
+            android:id="@+id/exBiscep2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exBiscep2"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/BiscepCurl"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/biscepcurl"
+            android:contentDescription="@string/exBiscep2IMG" />
+
+        <TextView
+            android:id="@+id/exBiscep3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exBiscep3"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/plateCurl"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/exBiscep3IMG"
+            android:padding="12dp"
+            app:srcCompat="@drawable/platecurl" />
+
+        <TextView
+            android:id="@+id/exBiscep4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exBiscep4IMG"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/HammerCurl"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/exBIscep4IMG"
+            app:srcCompat="@drawable/hammercurl" />
+
+        <TextView
+            android:id="@+id/exBiscep5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exBiscep5"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/exBiscep5IMG"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/exBiscep5IMG"
+            android:padding="10dp"
+            app:srcCompat="@drawable/concentrationcurl"
+            tools:ignore="ImageContrastCheck" />
+
+
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

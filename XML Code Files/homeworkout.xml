@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/HomeWorkoutheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#BED931EC"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:padding="12dp"
+            android:text="@string/headingHomeWorkout"
+            android:textSize="37sp"
+            android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/exHW1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/_1_push_ups_3x12"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:padding="12dp"
+            app:srcCompat="@drawable/pushup"
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="@string/hw1" />
+
+        <TextView
+            android:id="@+id/exHW2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/_2_body_weighted_squats_12x3"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp"
+            app:srcCompat="@drawable/freesquat"
+            android:contentDescription="@string/hw2" />
+
+        <TextView
+            android:id="@+id/exHW3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exhw3"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/calfimg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/calf"
+            android:contentDescription="@string/calfimg"/>
+
+        <TextView
+            android:id="@+id/exHW4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/plank"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/plank"
+            android:contentDescription="@string/plankIMG" />
+
+        <TextView
+            android:id="@+id/exHW5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/russiantwist"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="12dp"
+            android:src="@drawable/russiantwist"
+            android:contentDescription="@string/exhw5" />
+
+        <TextView
+            android:id="@+id/exHW6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exhw6"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/jumpingjacks"
+            android:contentDescription="@string/exhw6img" />
+
+        <TextView
+            android:id="@+id/exHW7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exhw7"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="19dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/lungesfree"
+            android:contentDescription="@string/exhw7img" />
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/backLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/backheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#B4EF78"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="@string/BackHeading"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/exShoulder1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/backex1"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/Deadlift"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/deadlift"
+            app:srcCompat="@drawable/deadlift" />
+
+        <TextView
+            android:id="@+id/exBack2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/backex2"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/bentOver"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/bentoverrow"
+            app:srcCompat="@drawable/bentoverback" />
+
+        <TextView
+            android:id="@+id/exBack3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/backEx3"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/OneArm"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="8dp"
+            android:contentDescription="@string/onearm"
+            app:srcCompat="@drawable/onearmback"
+            />
+
+        <TextView
+            android:id="@+id/exBack4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exBack4"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/LatPullDown"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/latpulldown"
+            android:paddingBottom="8dp"
+            app:srcCompat="@drawable/latpulldown" />
+
+        <TextView
+            android:id="@+id/exBack5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exBack5"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/seatedRow"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/seatedrow"
+            android:paddingBottom="8dp"
+            android:contentDescription="@string/seatedrow" />
+    </LinearLayout>
+
+    </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

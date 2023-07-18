@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/TricepsLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Tricepsheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#B4EF78"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="@string/Tricepheading"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/exTriceps1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exTriceps1"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/exTriceps1IMG"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/exTriceps1IMG"
+            app:srcCompat="@drawable/singlehand" />
+
+        <TextView
+            android:id="@+id/exTriceps2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exTriceps2"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/exTriceps2IMG"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/overhead"
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="@string/exTriceps2IMG" />
+
+        <TextView
+            android:id="@+id/exTriceps3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exTriceps3"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/exTriceps3IMG"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/exTriceps3IMG"
+            android:padding="10dp"
+            app:srcCompat="@drawable/skullcrusher" />
+
+        <TextView
+            android:id="@+id/exTriceps4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exTriceps4"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/exTriceps4IMG"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            app:srcCompat="@drawable/kickback"
+            android:contentDescription="@string/exTriceps4IMG" />
+
+        <TextView
+            android:id="@+id/exTriceps5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="@string/exTriceps5"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/exTriceps5IMG"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp"
+            app:srcCompat="@drawable/dimondpushups"
+            android:contentDescription="@string/exTriceps5IMG" />
+
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
